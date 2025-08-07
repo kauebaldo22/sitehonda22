@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja oficial Honda - Motocicletas e Acessórios">
+    <title>Loja da Honda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #e60012;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 280px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin-top: 15px;
+            color: #e60012;
+        }
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #e60012;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .product a:hover {
+            background-color: #d50011;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Loja Oficial Honda</h1>
+    <p>Compre suas motocicletas e acessórios Honda com facilidade.</p>
+</header>
+
+<nav>
+    <a href="#about">Sobre</a>
+    <a href="#products">Produtos</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="about">
+    <div class="container">
+        <h2>Sobre a Honda</h2>
+        <p>A Honda é uma das líderes mundiais no segmento de motocicletas, oferecendo produtos de alta qualidade, inovação e segurança para seus clientes. Conhecida pela confiabilidade e performance, a Honda se dedica a trazer para seus consumidores as melhores motos, acessórios e serviços.</p>
+    </div>
+</section>
+
+<section id="products">
+    <div class="container">
+        <h2>Produtos Disponíveis</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://www.honda.com.br/sites/default/files/styles/large/public/media/ATV-4X4-Honda-2023.jpg" alt="Honda ATV">
+                <h3>Honda ATV 2023</h3>
+                <p>Utilitário robusto, perfeito para aventuras fora de estrada.</p>
+                <a href="#">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="https://www.honda.com.br/sites/default/files/styles/large/public/media/moto_2023_cbr1000rr_r.jpg" alt="Honda CBR 1000RR">
+                <h3>Honda CBR 1000RR</h3>
+                <p>Desempenho impressionante e design aerodinâmico.</p>
+                <a href="#">Comprar Agora</a>
+            </div>
+            <div class="product">
+                <img src="https://www.honda.com.br/sites/default/files/styles/large/public/media/moto-2023-crf450rx.jpg" alt="Honda CRF 450RX">
+                <h3>Honda CRF 450RX</h3>
+                <p>Motocross de alto desempenho para os apaixonados por velocidade.</p>
+                <a href="#">Comprar Agora</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>Se você tiver alguma dúvida ou precisar de assistência, entre em contato conosco:</p>
+        <ul>
+            <li>Email: <a href="mailto:contato@honda.com.br">contato@honda.com.br</a></li>
+            <li>Telefone: (11) 4002-8922</li>
+            <li>Endereço: Av. Paulista, 1234 - São Paulo, SP</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Loja Honda | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
